@@ -19,11 +19,13 @@
   "ports": {
     "6600/tcp": 6600,
     "5555/udp": 5555,
+    "8000/tcp": null,
     "80/tcp": null
   },
   "ports_description": {
     "6600/tcp": "Mopidy",
     "5555/udp": "Autoaudiosink",
+    "8000/tcp": "Icecast2",
     "80/tcp": "Web interface (Not required for Ingress)"
   },
   "map": ["config", "share:rw", "ssl"],
